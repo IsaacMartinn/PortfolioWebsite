@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isaac Martin</title>
+    <link rel="stylesheet" href="static/style.css">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@v0.158.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@v0.158.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="{{ url_for('static',filename='avatar.js') }}"> </script>
+
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="content">
+    <section id="home">
+        <div id="avatar-container">
+            <div id="avatar-loading"></div>
+        </div>
+        <h1 class="hero-title">Hi there 👋</h1>
+        <h1>I'm <span class="gradient-text">Isaac Martin</span></h1>
+        <p>I'm a web developer with a passion for creating interactive, 3D web experiences.</p>
+
+    </section>
+
+</div>
+
+</body>
+</html>
