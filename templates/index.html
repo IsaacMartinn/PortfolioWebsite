@@ -12,33 +12,60 @@
         "three/addons/": "https://unpkg.com/three@v0.158.0/examples/jsm/"
       }
     }
+
   </script>
   <script type="module" src="{{ url_for('static',filename='avatar.js') }}"> </script>
-
 </head>
 <body>
-<header>
+  <header>
+
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-</header>
-<div class="content">
-    <section id="home">
-        <div id="avatar-container">
-            <div id="avatar-loading"></div>
-        </div>
-        <h1 class="hero-title">Hi there 👋</h1>
-        <h1>I'm <span class="gradient-text">Isaac Martin</span></h1>
-        <p>I'm a web developer with a passion for creating interactive, 3D web experiences.</p>
+  </header>
+  <div class="content">
 
-    </section>
+  <section id="home">
+  <div class="hero">
+    <div class="hero-text">
+      <h1 class="hero-title">Hi there 👋</h1>
+      <h1>I'm <span class="gradient-text">Isaac Martin</span></h1>
+      <p>I'm a Computer Engineering student at TMU, with a passion for design and Full-Stack Development</p>
+    </div>
+    <div id="avatar-container">
+      <div id="avatar-loading"></div>
+    </div>
+  </div>
 
-</div>
+</section>
 
+
+
+    <hr />
+    <h2 class="section-head">About Me</h2>
+      <div class="con">
+          <div class="col1"><img src="static/photos/good_photo.jpg"></div>
+          <div class="col">
+              <p id="about-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              </p>
+          </div>
+      </div>
+
+      <br />
+
+      <h2 class="section-head">Technologies</h2>
+
+
+
+
+
+  </div>
 </body>
 </html>
+

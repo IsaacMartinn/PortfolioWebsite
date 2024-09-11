@@ -40,7 +40,7 @@ function setupScene(gltf) {
 
     // Camera setup
     const camera = new THREE.PerspectiveCamera(
-      45, container.clientWidth / container.clientHeight);
+      43, container.clientWidth / container.clientHeight);
     camera.position.set(0.2, 0.5, 1);
 
     const controls = new OrbitControls(camera, renderer.domElement);

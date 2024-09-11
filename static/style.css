@@ -1,57 +1,66 @@
 /* General styles */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'montserrat', sans-serif;
   color: #fff;
   margin: 0;
   background: linear-gradient(0deg, #080808, #1f1e28);
   min-height: 100vh;
 }
 
+
 /* Header & Navigation styles */
 header {
   padding: 10px 0px;
-  text-align: right;
+
+}
+
+#initial{
+    text-align: left;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  text-align: right;
 }
 
 nav ul li {
   display: inline;
-  margin: 0 30px;
+  margin: 10px;
 }
 
-nav ul li a {
+nav ul li a{
   color: #919090;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 100;
   font-size: 1.5em;
+  display: inline;
+  margin: 10px;
+
 }
 
 /* Section styles */
 section {
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
-h1 {
+h1{
   font-size: 4em;
   padding: 0;
   margin: 0;
   font-weight: 500;
 }
 
-p {
+p{
   margin-top: 30px;
   font-size: 3em;
   font-weight: 100;
   color: rgb(163, 163, 163);
 }
 
-.content {
+.content{
   max-width: 1200px;
   margin: auto;
   padding: 16px 48px;
@@ -60,18 +69,26 @@ p {
 .hero {
   padding-top: 60px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Vertically aligns the text and avatar */
   text-align: left;
 }
 
-.gradient-text {
+.hero-text {
+  flex: 1; /* Ensures the text takes up remaining space */
+  padding-right: 20px; /* Adds space between text and avatar */
+}
+
+.gradient-text{
   background-image: linear-gradient(-45deg, rgb(177, 8, 189), rgb(88, 186, 255));
   background-clip: text;
   color: transparent;
 }
 
 #avatar-container {
-  height: 500px;
+  flex-shrink: 0; /* Prevents avatar from shrinking */
+  height: 665px;
+  width: 500px; /* Set a fixed width for the avatar */
   margin-top: 32px;
   margin-bottom: 32px;
   display: flex;
@@ -81,4 +98,36 @@ p {
 
 #avatar-loading {
   font-size: 3em;
+}
+
+.section-head{
+    text-align:center;
+    font-size: 40px;
+    margin-top: 80px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 60;
+}
+
+.con{
+    display:flex;
+    justify-content: space-around;
+    margin-top:100px;
+
+}
+
+#about-text{
+font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top:0px;
+    color:rgb(163, 163, 163);
+}
+
+img{
+max-width:70%;
+border-radius:25px
+}
+
+.col1{
+margin-left:100px;
 }
