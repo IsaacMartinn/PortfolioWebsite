@@ -15,6 +15,7 @@
 
   </script>
   <script type="module" src="{{ url_for('static',filename='avatar.js') }}"> </script>
+
 </head>
 <body>
   <header>
@@ -48,18 +49,121 @@
 
     <hr />
     <h2 class="section-head">About Me</h2>
-      <div class="con">
-          <div class="col1"><img src="static/photos/good_photo.jpg"></div>
+      <div class="con col1">
+          <div class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Java</div>
+        <div class="skill">C</div>
+        <div class="skill">SQLAlchemy</div>
+        <div class="skill">BeautifulSoup</div>
+        <div class="skill">Selenium</div>
+        <div class="skill">Request</div>
+        <div class="skill">Pandas</div>
+        <div class="skill">NumPy</div>
+        <div class="skill">Matplotlib</div>
+        <div class="skill">Plotly</div>
+        <div class="skill">Socket.io</div>
+        <div class="skill">Flask</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">RESTful</div>
+        <div class="skill">WTForms</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Git/Github</div>
+        <div class="skill">Postman</div>
+        <div class="skill">PyCharm</div>
+        <div class="skill">VS code</div>
+    </div>
+</div>
+
           <div class="col">
-              <p id="about-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              <h2>Get to know me!</h2>
+              <p class="about-text">
+                  Hi, I’m Isaac Martin, from Toronto! I enjoy solving challenging problems, and I do it with the use of code! I’m currently in my 3rd year at Toronto Metropolitan University, where I'm studying Computer Engineering with a specialization in software engineering.
               </p>
+
+              <p class="about-text">
+                  Besides coding, some of my other passions are the following:
+
+              <p class="about-text">
+              <ul class="about-text">
+              <li><b class="bold">Student Representative:</b> I was selected as a Representative for the Electrical, Computer, and Biomedical Engineering Department Council, where I actively participate in meetings and contribute to discussions that influence academic policies and program decisions affecting over 1,000+ undergraduate students. This role has allowed me to develop valuable skills in academic governance, decision-making, and student advocacy.</li>
+              <li><b class="bold">Sports:</b> Whether I’m watching or playing, I’m always cheering on the Raptors and Toronto teams or jumping into a quick pick-up game of soccer or basketball!</li>
+              <li><b class="bold">Hobbies:</b> Some of my favorite hobbies include staying active with workouts, enjoying scenic bike rides, playing board games with friends, and trying out new recipes or dishes to cook (and, of course, eat)!</li>
+              </ul>
+
+
+
+
           </div>
       </div>
 
       <br />
 
-      <h2 class="section-head">Technologies</h2>
+
+<!--project section -->
+      <h2 class="section-head">Featured Projects</h2>
+
+<!--      first project -->
+
+<section>
+  <div class="project">
+      <div class="image-container">
+        <img class="image" src="static/photos/leetbot_game.jpg" alt="Project Image">
+      </div>
+      <div class="project-details">
+        <h2>LeetBot</h2>
+        <p class="text">
+            A multiplayer turn-based game that connects LeetCode
+            statistics to in-game robots, where players enhance their robot's abilities
+            by solving LeetCode challenges. This project won First Place Overall at Ignition Hacks 2024
+        </p>
+      <div class="project-links">
+        <a href="https://github.com/IsaacMartinn/LeetcodeBot" class="github-link">
+            <img src="static/svg/github.svg" alt="External Link">
+        </a>
+          <a href="https://leetcodebot-gumy.onrender.com/">
+              <img src="static/svg/box-arrow-in-up-right.svg">
+          </a>
+      </div>
+      </div>
+  </div>
+
+
+<!--    second project-->
+
+    <div class="project">
+      <div class="image-container">
+        <img class="image" src="static/photos/pokemonbattle.jpg" alt="Project Image">
+      </div>
+      <div class="project-details">
+        <h2>LeetBot</h2>
+        <p class="text">
+            A multiplayer turn-based game that connects LeetCode
+            statistics to in-game robots, where players enhance their robot's abilities
+            by solving LeetCode challenges. This project won First Place Overall at Ignition Hacks 2024
+        </p>
+      <div class="project-links">
+        <a href="https://github.com/IsaacMartinn/LeetcodeBot" class="github-link">
+            <img src="static/svg/github.svg" alt="External Link">
+        </a>
+          <a>
+              <img src="static/svg/box-arrow-in-up-right.svg">
+          </a>
+      </div>
+      </div>
+  </div>
+
+
+
+</section>
+
+
+
+
 
 
 
