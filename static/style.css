@@ -288,6 +288,10 @@ body {
     gap: 10px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .skill {
     background-color: #e5e7eb;
     color: #333;
@@ -306,4 +310,8 @@ body {
 
 .bold{
     color:#7ec8e3;
+}
+
+#about{
+    padding: 50px;
 }
