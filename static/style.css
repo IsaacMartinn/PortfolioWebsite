@@ -317,3 +317,8 @@ html{
 #about{
     padding: 50px;
 }
+
+ html, body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
